@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vif"
+version = "0.1.0"
+description = ""
+authors = ["takahashi-r <takahashi-r@technoface.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "1.24.3"
+seaborn = "0.11.2"
+pandas = "2.0.3"
+statsmodels = "^0.14.0"
+scikit-learn = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
